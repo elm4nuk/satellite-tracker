@@ -1,0 +1,25 @@
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# JavaScript
+node_modules/
+dist/
+Frontend/frontend/public/cesium/
+*.local
+*.log
+
+# Generated analysis and editor files
+graphify-out/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
